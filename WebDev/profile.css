@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/**top nav bar*/
+#top-nav-bar {
+    height: 70px;
+    align-items: center;
+    margin-left: 47.5%;
+}
+
+#search {
+    margin-top: 13px;
+    color: white;
+    background-color: #333A59;
+    height: 30px;
+    width: 395px;
+    text-align-last: left;
+    border-radius: 22px;
+    padding: 3px;
+    font-size: 17px;
+}
+
+::placeholder {
+    color: white;
+}
+
+#john-doe1{
+    position: absolute;
+    border-radius: 100%;
+    margin-top: 8px;
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    margin-left: 22%;
+    transition-duration: 0.4s;
+}
+a {
+    text-decoration: none;
+}
+
+#john-doe1:hover {
+    box-shadow: 3px 5px 0 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#john-doe:hover {
+    box-shadow: 3px 5px 0 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+    box-shadow: 3px 5px 0 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 30px;
+  }
+
+/**left nav bar*/
+#left-nav-bar {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: #333A59;
+    height: 200%;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+#options-list {
+    list-style-type: none;
+    font-size: 25px;
+    line-height: 200%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.divider {
+    color: white;
+    width: 80%;
+}
+
+#playlist{
+    list-style-type: none;
+    font-size: 25px;
+    line-height: 200%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.playlistLink:visited {
+    color: white;
+}
+.playlistLink:link {
+    color: white;
+}
+.playlistLink:hover {
+    color:rgb(131, 160, 255);
+    text-decoration: underline;
+}
+
+#logo{
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#wipe-music{
+    color: white;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+#wipe:visited {
+    color: white;
+}
+#wipe:link {
+    color: white;
+}
+
+/**content*/
+#john-doe {
+    margin-top: 3%;
+    border-radius: 100%;
+    margin-left: 50%;
+    width:300px;
+    height: 300px;
+    object-fit: cover;
+    transition-duration: 0.4s;
+}
+
+.input-holder {
+    margin-top: 3%;
+    margin-left: 40%;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+#Fname-input{
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid rgb(129, 129, 129);
+    margin: 10px 0px;
+    width: 300px;
+}
+
+#Lname-input{
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid rgb(129, 129, 129);
+    margin: 10px 0px;
+    width: 300px;
+}
+
+.input-holder2 {
+    margin-left: 40%;
+}
+
+#email {
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid rgb(129, 129, 129);
+    margin: 10px 0px;
+    width: 668px;
+}
+
+#password {
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid rgb(129, 129, 129);
+    margin: 10px 0px;
+    width: 668px;
+}
+
+#save{
+    margin-top: 30px;
+    margin-left: 28%;
+    font-size: 17px;
+    height: 42.5px;
+    width: 100px;
+    background-color: #333A59;
+    border-radius: 20px;
+    border:none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#logout {
+    margin-top: 10px;
+    margin-left: 28%;
+    font-size: 17px;
+    height: 42.5px;
+    width: 100px;
+    background-color: #333A59;
+    border-radius: 20px;
+    border:none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.logout:visited {
+    color: white;
+}
+.logout:link {
+    color: white;
+}
+.logout:hover {
+    color:rgb(131, 160, 255);
+}
+
+.top-artists {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.top-artists-name {
+    color: white;
+    font-size: 25px;
+    margin-left: 5%;
+}
+h2{
+    color: white;
+    font-size: 36px;
+}
+#top-artist{
+    margin-left: 10%;
+}
+
+.pfp{
+    cursor: pointer;
+}
+
+.pfp:visited {
+    color: white;
+}
+.pfp:link {
+    color: white;
+}
+.pfp:hover {
+    color:rgb(131, 160, 255);
+    text-decoration: underline;
+}
+

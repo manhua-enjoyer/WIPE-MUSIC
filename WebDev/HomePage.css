@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+/**top nav bar*/
+#top-nav-bar {
+    height: 70px;
+    align-items: center;
+    margin-left: 47.5%;
+}
+
+#search {
+    margin-top: 13px;
+    color: white;
+    background-color: #333A59;
+    height: 30px;
+    width: 395px;
+    text-align-last: left;
+    border-radius: 22px;
+    padding: 3px;
+    font-size: 17px;
+}
+
+::placeholder {
+    color: white;
+}
+
+#john-doe1{
+    position: absolute;
+    border-radius: 100%;
+    margin-top: 8px;
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    margin-left: 22%;
+    transition-duration: 0.4s;
+}
+
+#john-doe1:hover {
+    box-shadow: 3px 5px 0 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+a{
+    text-decoration: none;
+}
+
+button:hover {
+    box-shadow: 3px 5px 0 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 30px;
+  }
+
+.container img {
+    position: absolute;
+    top: 13%;
+    left: 25%;
+}
+
+/**animations*/
+@keyframes catFade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+.bannerOne{
+    animation-name: catFade;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    border-radius: 18px;
+}
+
+.bannerTwo{
+    opacity: 0;
+    animation-name: catFade;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-delay: 4s;
+    border-radius: 18px;
+}
+
+.bannerThree{
+    opacity: 0;
+    animation-name: catFade;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    border-radius: 18px;
+}
+
+/**content*/
+#content-holder {
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    margin-left: 25%;
+    top: 50%;
+}
+
+.image-row{
+    display: flex;
+    flex-direction: row;
+    gap: 9%;
+}
+
+.image-size {
+    border-radius: 22px;
+    width: 190px;
+    height: 190px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+img:hover {
+    box-shadow: 7px 9px 2px 2px rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+h4{
+    font-size: 36px;
+}
+/**left nav bar*/
+  #left-nav-bar {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: #333A59;
+    height: 220%;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+#options-list {
+    list-style-type: none;
+    font-size: 25px;
+    line-height: 200%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.divider {
+    color: white;
+    width: 80%;
+}
+
+#playlist{
+    list-style-type: none;
+    font-size: 25px;
+    line-height: 200%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.playlistLink:visited {
+    color: white;
+}
+.playlistLink:link {
+    color: white;
+}
+.playlistLink:hover {
+    color:rgb(131, 160, 255);
+    text-decoration: underline;
+}
+
+#logo{
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#wipe-music{
+    color: white;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+#wipe:visited {
+    color: white;
+}
+#wipe:link {
+    color: white;
+}
+
+.top-artists {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.top-artists-name {
+    color: white;
+    font-size: 25px;
+    margin-left: 5%;
+}
+h2{
+    color: white;
+    font-size: 36px;
+}
+#top-artist{
+    margin-left: 10%;
+}
+
+.pfp{
+    cursor: pointer;
+}
+
+.pfp:visited {
+    color: white;
+}
+.pfp:link {
+    color: white;
+}
+.pfp:hover {
+    color:rgb(131, 160, 255);
+    text-decoration: underline;
+}
