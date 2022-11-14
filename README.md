@@ -1,3 +1,2 @@
 # WIPE-MUSIC
-Team Lead - Elijah
-Members - Wendy Chen, Ingrid Chou, Paul Sheo
+Elijah Chan, Wendy Chen, Ingrid Chou, Paul Sheo
